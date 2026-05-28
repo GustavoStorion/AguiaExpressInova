@@ -214,13 +214,15 @@ GET /dashboard/metricas
 
 ```text
 src
- ┣ controller
- ┣ service
- ┣ repository
- ┣ dto
- ┣ model
  ┣ config
- ┗ enums
+ ┣ controller
+ ┣ dto
+ ┣ exception
+ ┣ model
+ | ┣ enums
+ ┣ repository
+ ┗ service
+
 ```
 
 ---
